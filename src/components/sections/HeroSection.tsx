@@ -1,0 +1,86 @@
+"use client";
+
+import Image from "next/image";
+import Link from "next/link";
+import { ArrowRight } from "lucide-react";
+
+export function HeroSection() {
+  return (
+    <section className="flex flex-col justify-start items-start pt-12 md:pt-20 relative overflow-hidden bg-[#0e0e0e]">
+      {/* Top Ticker */}
+      <div className="w-full font-[family-name:var(--font-space-mono)] text-xs py-2 whitespace-nowrap overflow-hidden flex items-center justify-center bg-[#C8FF00] text-[#131313] uppercase">
+        <div className="animate-marquee flex gap-8">
+          <span>SATIRICAL POSTER ART /// POP DYSTOPIA /// LINGUISTIC SUBVERSION /// DARK HUMOR /// FROM PARIS WITH A LAUGH ///</span>
+          <span>SATIRICAL POSTER ART /// POP DYSTOPIA /// LINGUISTIC SUBVERSION /// DARK HUMOR /// FROM PARIS WITH A LAUGH ///</span>
+        </div>
+      </div>
+
+      <div className="flex flex-col md:flex-row w-full justify-between items-center px-6 md:px-10">
+        <div className="w-full md:w-[50vw] z-10 mb-8 md:mb-12 pt-8 md:pt-0">
+          <h1 className="heading-style text-[15vw] md:text-[8vw] w-full md:w-[50vw] leading-[0.8] animate-fade-in-up">
+            <span className="text-white block">Encre</span>
+            <span className="text-[#C8FF00] block">Acide</span>
+          </h1>
+
+          <div className="mt-6 md:mt-8 mb-4 font-bold tracking-tighter heading-style text-lg md:text-2xl text-left lowercase animate-fade-in-up animation-delay-200">
+            <span className="text-[#C8FF00]">Art</span>
+            <span className="text-white"> that bites. </span>
+            <span className="text-[#C8FF00]">Words</span>
+            <span className="text-white"> that blast.</span>
+            <br />
+            <span className="text-white">Posters that refuse to behave.</span>
+          </div>
+
+          <div className="animate-fade-in-up animation-delay-300">
+            <p className="font-[family-name:var(--font-space-mono)] text-xs md:text-sm tracking-widest leading-relaxed uppercase text-left text-[#E9E2D3] max-w-xl">
+              WHERE AI-GENERATED IMAGERY COLLIDES WITH HAND-CRAFTED, SARCASTIC
+              WORDPLAY{" "}
+              <span className="tracking-[1.4px]">
+                RADICALLY ROOTED IN FRENCH ABSURDISM, AND THAT DISTINCTLY FRENCH
+                REFUSAL TO TAKE SERIOUSNESS SERIOUSLY.{" "}
+              </span>
+              <span className="text-[#C8FF00]">
+                SOCIETY DISSECTED THROUGH SLOW-BOILING PUNS, PHONETIC CHAOS,
+                AND VISUAL DYSTOPIC MOMENTUM.
+              </span>
+            </p>
+            <div className="mt-4">
+              <span className="font-[family-name:var(--font-space-mono)] text-sm tracking-widest text-[#E9E2D3]">
+                FROM PARIS, WITH A LAUGH!
+              </span>
+            </div>
+          </div>
+
+          <div className="mt-8 animate-fade-in-up animation-delay-400">
+            <Link
+              href="/collection"
+              className="bg-[#C8FF00] text-[#273500] font-[family-name:var(--font-space-mono)] uppercase tracking-widest px-6 md:px-8 text-sm hover:bg-white hover:text-black transition-colors inline-flex items-center gap-2 group py-2.5"
+            >
+              Browse the Collection
+              <ArrowRight className="w-5 h-5 transition-transform group-hover:translate-x-1" />
+            </Link>
+          </div>
+        </div>
+
+        <div className="hidden md:block w-[40vw] pr-10 z-10 animate-fade-in animation-delay-200">
+          <Image
+            src="/images/divers/squelette-tarpe.webp"
+            alt="Tarpe Diem Skeleton"
+            width={600}
+            height={800}
+            className="w-full max-h-[70vh] object-contain object-right"
+            priority
+          />
+        </div>
+      </div>
+
+      {/* Bottom Ticker */}
+      <div className="w-full bg-[#C8FF00] text-[#131313] uppercase font-[family-name:var(--font-space-mono)] text-xs py-2 whitespace-nowrap overflow-hidden flex items-center z-20 mt-8 md:mt-0">
+        <div className="animate-marquee flex gap-8">
+          <span>/// When pixels in distress start speaking for drifting wor(l)ds /// TARPE DIEM /// S\u0026apos;IL VOUS BLED /// DRIFTED DREAMS /// DYSTOPICS /// PUNS FOR GUNS ///</span>
+          <span>/// When pixels in distress start speaking for drifting wor(l)ds /// When pixels in distress start speaking for drifting wor(l)ds ///</span>
+        </div>
+      </div>
+    </section>
+  );
+}

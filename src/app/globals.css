@@ -1,26 +1,209 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
-
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  /* Brand Colors - Encre Acide */
+  --color-brand-primary: #C8FF00;
+  --color-brand-secondary: #E4E4CC;
+  --color-brand-accent: #F4621B;
+
+  /* Surface Scale */
+  --color-surface-dim: #131313;
+  --color-surface: #131313;
+  --color-surface-bright: #3a3939;
+  --color-surface-container-lowest: #0e0e0e;
+  --color-surface-container-low: #1c1b1b;
+  --color-surface-container: #201f1f;
+  --color-surface-container-high: #2a2a2a;
+  --color-surface-container-highest: #353534;
+  --color-surface-variant: #353534;
+
+  /* Text Colors */
+  --color-on-surface: #e5e2e1;
+  --color-on-surface-variant: #c4caac;
+  --color-on-background: #e5e2e1;
+  --color-inverse-surface: #e5e2e1;
+  --color-inverse-on-surface: #313030;
+
+  /* Primary (Acid Yellow) */
+  --color-primary: #ffffff;
+  --color-primary-fixed: #c0f500;
+  --color-primary-fixed-dim: #a8d700;
+  --color-primary-container: #c0f500;
+  --color-on-primary: #273500;
+  --color-on-primary-fixed: #161f00;
+  --color-on-primary-container: #546d00;
+  --color-on-primary-fixed-variant: #3b4d00;
+  --color-inverse-primary: #4f6600;
+  --color-surface-tint: #a8d700;
+
+  /* Secondary (Warm Orange) */
+  --color-secondary: #ffb599;
+  --color-secondary-fixed: #ffdbce;
+  --color-secondary-fixed-dim: #ffb599;
+  --color-secondary-container: #f4621b;
+  --color-on-secondary: #5a1c00;
+  --color-on-secondary-container: #4f1700;
+  --color-on-secondary-fixed: #370e00;
+  --color-on-secondary-fixed-variant: #7f2b00;
+
+  /* Tertiary (Light Cream) */
+  --color-tertiary: #ffffff;
+  --color-tertiary-fixed: #e9e2d3;
+  --color-tertiary-fixed-dim: #ccc6b7;
+  --color-tertiary-container: #e9e2d3;
+  --color-on-tertiary: #333026;
+  --color-on-tertiary-container: #686458;
+  --color-on-tertiary-fixed: #1e1b12;
+  --color-on-tertiary-fixed-variant: #4a473b;
+
+  /* Outline & Utility */
+  --color-outline: #8e9479;
+  --color-outline-variant: #434933;
+
+  /* Error */
+  --color-error: #ffb4ab;
+  --color-error-container: #93000a;
+  --color-on-error: #690005;
+  --color-on-error-container: #ffdad6;
+
+  /* Background */
+  --color-background: #131313;
+
+  /* Light section override */
+  --color-light-bg: #F6F4ED;
+  --color-light-text: #131313;
+  --color-light-muted: #8A8578;
+
+  /* Fonts */
+  --font-headline: "Space Grotesk", sans-serif;
+  --font-body: "Inter", sans-serif;
+  --font-label: "Space Mono", monospace;
+  --font-display: "Syne", sans-serif;
+  --font-sans: var(--font-space-grotesk);
+  --font-mono: var(--font-space-mono);
+
+  /* Border Radius - ZERO for brutalist look */
+  --radius-none: 0px;
+  --radius-sm: 0px;
+  --radius-md: 0px;
+  --radius-lg: 0px;
+  --radius-xl: 0px;
+  --radius-2xl: 0px;
+  --radius-full: 0px;
+
+  /* Animations */
+  --animate-marquee: marquee 20s linear infinite;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: #0e0e0e;
+  color: #e5e2e1;
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
+
+/* Selection styling */
+::selection {
+  background-color: #C8FF00;
+  color: #000000;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0e0e0e;
+}
+::-webkit-scrollbar-thumb {
+  background: #434933;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #C8FF00;
+}
+
+/* Hide scrollbar utility */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Heading style - Syne heavy */
+.heading-style {
+  font-family: "Syne", sans-serif;
+  font-weight: 800;
+  letter-spacing: -0.05em;
+}
+
+/* Utility gradient */
+.toxic-gradient {
+  background: linear-gradient(135deg, #C8FF00, #C0F500);
+}
+
+/* Ghost border utility */
+.ghost-border {
+  border: 1px solid rgba(142, 148, 121, 0.15);
+}
+
+/* Glassmorphism */
+.glass {
+  background: rgba(19, 19, 19, 0.7);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+}
+
+/* Chemical shadow */
+.chemical-shadow {
+  box-shadow: 0 0 40px 0 rgba(200, 255, 0, 0.06);
+}
+
+/* Fade-in animations (replace Framer Motion) */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+@keyframes fadeInLeft {
+  from { opacity: 0; transform: translateX(-20px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+@keyframes fadeInRight {
+  from { opacity: 0; transform: translateX(20px); }
+  to { opacity: 1; transform: translateX(0); }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.7s ease-out forwards;
+}
+.animate-fade-in-up {
+  animation: fadeInUp 0.7s ease-out forwards;
+}
+.animate-fade-in-left {
+  animation: fadeInLeft 0.7s ease-out forwards;
+}
+.animate-fade-in-right {
+  animation: fadeInRight 0.7s ease-out forwards;
+}
+
+/* Stagger delays */
+.animation-delay-100 { animation-delay: 0.1s; }
+.animation-delay-200 { animation-delay: 0.2s; }
+.animation-delay-300 { animation-delay: 0.3s; }
+.animation-delay-400 { animation-delay: 0.4s; }
+.animation-delay-500 { animation-delay: 0.5s; }
