@@ -67,7 +67,7 @@ export function HeroSection() {
 
         <div className="hidden md:block w-[40vw] pr-10 animate-fade-in animation-delay-200">
           <Image
-            src="/images/divers/squelette-tarpe.png"
+            src="/images/divers/squelette-tarpe-gazon.png"
             alt="Tarpe Diem Skeleton"
             width={600}
             height={800}
@@ -79,7 +79,7 @@ export function HeroSection() {
 
       <div className="absolute bottom-[2.5rem] right-0 w-[99%] translate-x-[50%] z-0 md:hidden">
         <Image
-          src="/images/divers/squelette-tarpe.png"
+          src="/images/divers/squelette-tarpe-gazon.png"
           alt="Tarpe Diem Skeleton"
           width={1200}
           height={600}
