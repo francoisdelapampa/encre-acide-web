@@ -102,13 +102,7 @@ export function HeroSection() {
         />
       </div>
 
-      {/* Bottom Ticker */}
-      <div className="relative z-10 w-full bg-[#C8FF00] text-[#131313] uppercase font-[family-name:var(--font-space-mono)] text-xs py-2 whitespace-nowrap overflow-hidden flex items-center mt-8 md:absolute md:bottom-0 md:mt-0">
-        <div className="animate-marquee flex gap-8">
-          <span>When pixels in distress start speaking for drifting wor(l)ds /// TARPE DIEM /// S'IL VOUS BLED /// DRIFTED DREAMS /// DYSTOPICS /// HOT PUNS /// POSTERS THAT REFUSE TO BEHAVE</span>
-          <span>When pixels in distress start speaking for drifting wor(l)ds /// TARPE DIEM /// S'IL VOUS BLED /// DRIFTED DREAMS /// DYSTOPICS /// HOT PUNS /// POSTERS THAT REFUSE TO BEHAVE</span>
-        </div>
-      </div>
+
     </section>
     </>
   );
