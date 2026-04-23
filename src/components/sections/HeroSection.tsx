@@ -67,9 +67,9 @@ export function HeroSection() {
 
       </div>
 
-      <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-1/2 md:w-full z-0">
+      <div className="absolute bottom-[2.5rem] right-0 w-1/2 md:w-full z-0">
         <Image
-          src="/images/divers/squelette-tarpe.webp"
+          src="/images/divers/squelette-tarpe.png"
           alt="Tarpe Diem Skeleton"
           width={1200}
           height={600}
