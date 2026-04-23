@@ -85,7 +85,7 @@ export function HeroSection() {
           alt="Tarpe Diem Skeleton"
           width={400}
           height={600}
-          className="w-[32vw] h-auto object-contain scale-x-[-1]"
+          className="w-[29vw] h-auto object-contain scale-x-[-1]"
           priority
         />
         <Image
@@ -93,13 +93,13 @@ export function HeroSection() {
           alt="Tarpe Diem Skeleton"
           width={400}
           height={600}
-          className="w-[40vw] h-auto object-contain object-right"
+          className="w-[36vw] max-h-full h-auto object-contain object-right"
           priority
         />
       </div>
 
       {/* Bottom Ticker */}
-      <div className="w-full bg-[#C8FF00] text-[#131313] uppercase font-[family-name:var(--font-space-mono)] text-xs py-2 whitespace-nowrap overflow-hidden flex items-center mt-8 md:mt-0">
+      <div className="relative z-10 w-full bg-[#C8FF00] text-[#131313] uppercase font-[family-name:var(--font-space-mono)] text-xs py-2 whitespace-nowrap overflow-hidden flex items-center mt-8 md:mt-0">
         <div className="animate-marquee flex gap-8">
           <span>When pixels in distress start speaking for drifting wor(l)ds /// TARPE DIEM /// S'IL VOUS BLED /// DRIFTED DREAMS /// DYSTOPICS /// HOT PUNS /// POSTERS THAT REFUSE TO BEHAVE</span>
           <span>When pixels in distress start speaking for drifting wor(l)ds /// TARPE DIEM /// S'IL VOUS BLED /// DRIFTED DREAMS /// DYSTOPICS /// HOT PUNS /// POSTERS THAT REFUSE TO BEHAVE</span>
