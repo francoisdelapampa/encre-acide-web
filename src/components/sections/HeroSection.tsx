@@ -59,7 +59,7 @@ export function HeroSection() {
           <div className="relative mt-8 animate-fade-in-up animation-delay-400">
             <div className="absolute bottom-full right-0 w-[99%] translate-x-[40%] z-[-1] md:hidden">
               <Image
-                src="/images/divers/squelette-tarpe-gazon.png"
+                src="/images/divers/squelette-tarpe-smoky.png"
                 alt="Tarpe Diem Skeleton"
                 width={1200}
                 height={600}
@@ -93,7 +93,7 @@ export function HeroSection() {
       {/* Desktop gazon — right, height capped */}
       <div className="absolute top-0 right-0 h-full hidden md:flex items-end pr-10 z-0">
         <Image
-          src="/images/divers/squelette-tarpe-gazon.png"
+          src="/images/divers/squelette-tarpe-smoky.png"
           alt="Tarpe Diem Skeleton"
           width={400}
           height={600}
