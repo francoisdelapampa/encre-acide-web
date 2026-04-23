@@ -75,19 +75,28 @@ export function HeroSection() {
           </div>
         </div>
 
-        <div className="hidden md:block w-[40vw] pr-10 animate-fade-in animation-delay-200">
+        <div className="hidden md:block w-[20vw] pr-10 animate-fade-in animation-delay-200">
           <Image
-            src="/images/divers/squelette-tarpe-gazon.png"
+            src="/images/divers/squelette-tarpe.webp"
             alt="Tarpe Diem Skeleton"
-            width={600}
-            height={800}
-            className="w-full max-h-[70vh] object-contain object-right"
+            width={400}
+            height={600}
+            className="w-full max-h-[70vh] object-contain object-right scale-x-[-1]"
             priority
           />
         </div>
       </div>
 
-
+      <div className="absolute bottom-[2.5rem] right-0 w-[40vw] z-0 md:block hidden">
+        <Image
+          src="/images/divers/squelette-tarpe-gazon.png"
+          alt="Tarpe Diem Skeleton"
+          width={1200}
+          height={600}
+          className="w-full h-auto block"
+          priority
+        />
+      </div>
 
       {/* Bottom Ticker */}
       <div className="w-full bg-[#C8FF00] text-[#131313] uppercase font-[family-name:var(--font-space-mono)] text-xs py-2 whitespace-nowrap overflow-hidden flex items-center mt-8 md:mt-0">
