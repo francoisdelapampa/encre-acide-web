@@ -48,7 +48,7 @@ export function ArtistTeaserSection() {
           alt="Skeleton"
           width={400}
           height={400}
-          className="w-[250px] h-auto md:w-[400px] object-contain object-bottom-right opacity-80"
+          className="w-[250px] h-auto md:w-[520px] object-contain object-bottom-right opacity-80"
         />
       </div>
     </section>
