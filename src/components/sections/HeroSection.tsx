@@ -25,15 +25,15 @@ export function HeroSection() {
 
           <div className="mt-6 md:mt-8 mb-4 font-bold tracking-tighter heading-style text-lg md:text-2xl text-left lowercase animate-fade-in-up animation-delay-200">
             <span className="text-[#C8FF00]">Art</span>
-            <span className="text-white"> That Bites. </span>
+            <span className="text-white"> That Bites. </span><br className="md:hidden" />
             <span className="text-[#C8FF00]">Words</span>
             <span className="text-white"> That Blast.</span>
             <br />
-            <span className="text-[#C8FF00]">Posters</span><span className="text-white"> That Refuse To Behave.</span>
+            <span className="text-[#C8FF00]">Posters</span><span className="text-white"> That Refuse </span><br className="md:hidden" /><span className="text-white">To Behave.</span>
           </div>
 
           <div className="animate-fade-in-up animation-delay-300">
-            <p className="font-[family-name:var(--font-space-grotesk)] text-sm tracking-widest leading-relaxed text-left text-[#ccc6b7] max-w-xl font-bold">
+            <p className="font-[family-name:var(--font-space-grotesk)] text-sm tracking-widest leading-relaxed text-left text-[#ccc6b7] max-w-[66vw] md:max-w-xl font-bold">
               WHERE AI-GENERATED IMAGERY COLLIDES WITH HAND-CRAFTED,{" "}
               <span className="text-[#C8FF00]">SARCASTIC WORDPLAY</span>{" "}
               <span className="tracking-[1.4px]">
@@ -77,7 +77,7 @@ export function HeroSection() {
         </div>
       </div>
 
-      <div className="absolute bottom-[2.5rem] right-0 w-[99%] translate-x-[50%] z-0 md:hidden">
+      <div className="absolute bottom-[2.5rem] right-0 w-[99%] translate-x-[40%] z-0 md:hidden">
         <Image
           src="/images/divers/squelette-tarpe-gazon.png"
           alt="Tarpe Diem Skeleton"
