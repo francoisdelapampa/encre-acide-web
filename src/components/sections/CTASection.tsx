@@ -75,7 +75,7 @@ export function CTASection() {
         </motion.p>
 
         <motion.div
-          className="max-w-[45rem] mx-auto"
+          className="max-w-[49.5rem] mx-auto"
           initial={{ opacity: 0.9, y: 10 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
