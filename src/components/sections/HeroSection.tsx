@@ -57,7 +57,7 @@ export function HeroSection() {
           </div>
 
           <div className="relative mt-8 animate-fade-in-up animation-delay-400">
-            <div className="absolute bottom-full right-0 w-[99%] translate-x-[40%] z-[-1] md:hidden">
+            <div className="absolute bottom-full right-0 w-[89.1%] translate-x-[40%] z-[-1] md:hidden">
               <Image
                 src="/images/divers/squelette-tarpe-smoky.png"
                 alt="Tarpe Diem Skeleton"
