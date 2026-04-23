@@ -34,7 +34,17 @@ export function HeroSection() {
             <span className="text-[#C8FF00]">Posters</span><span className="text-white"> That Refuse </span><br className="md:hidden" /><span className="text-white">To Behave.</span>
           </div>
 
-          <div className="animate-fade-in-up animation-delay-300">
+          <div className="relative animate-fade-in-up animation-delay-300">
+            <div className="absolute bottom-0 right-0 w-[89.1%] translate-x-[40%] z-[-1] md:hidden">
+              <Image
+                src="/images/divers/squelette-tarpe-smoky.png"
+                alt="Tarpe Diem Skeleton"
+                width={1200}
+                height={600}
+                className="w-full h-auto block"
+                priority
+              />
+            </div>
             <p className="font-[family-name:var(--font-space-grotesk)] text-sm tracking-widest leading-relaxed text-left text-[#ccc6b7] max-w-[66vw] md:max-w-xl font-bold">
               WHERE AI-GENERATED IMAGERY COLLIDES WITH HAND-CRAFTED,{" "}
               <span className="text-[#C8FF00]">SARCASTIC WORDPLAY</span>{" "}
@@ -56,17 +66,7 @@ export function HeroSection() {
             </div>
           </div>
 
-          <div className="relative mt-8 animate-fade-in-up animation-delay-400">
-            <div className="absolute bottom-full right-0 w-[89.1%] translate-x-[40%] z-[-1] md:hidden">
-              <Image
-                src="/images/divers/squelette-tarpe-smoky.png"
-                alt="Tarpe Diem Skeleton"
-                width={1200}
-                height={600}
-                className="w-full h-auto block"
-                priority
-              />
-            </div>
+          <div className="mt-8 animate-fade-in-up animation-delay-400">
             <Link
               href="/collection"
               className="relative z-10 bg-[#C8FF00] text-[#273500] font-[family-name:var(--font-space-mono)] uppercase tracking-widest px-6 md:px-8 text-sm hover:bg-white hover:text-black transition-colors inline-flex items-center gap-2 group py-2.5 font-bold"
