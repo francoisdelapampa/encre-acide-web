@@ -94,12 +94,12 @@ export function CTASection() {
             <form onSubmit={handleSubmit} className="flex flex-col gap-4">
               <div className="bg-[#C8FF00] p-4 md:p-5 text-center">
                 <div className="mb-2">
-                  <p className="font-[family-name:var(--font-space-mono)] text-xs md:text-sm text-[#1a1a1a] uppercase tracking-widest leading-relaxed">Dear friends, brand aficionados, and discerning collectors,</p>
+                  <p className="font-[family-name:var(--font-space-mono)] text-xs md:text-sm text-[#1a1a1a] uppercase tracking-widest leading-relaxed">DEAR FRIENDS, BRAND AFICIONADOS, AND DISCERNING COLLECTORS,</p>
                   <div className="h-2 md:h-3" />
-                  <span className="block heading-style tracking-tighter text-xl md:text-2xl text-[#273500] capitalize">this is for you !</span>
+                  <span className="block heading-style tracking-tighter text-xl md:text-2xl text-[#273500] capitalize">Pull This Thread !</span>
                 </div>
                 <p className="font-[family-name:var(--font-space-mono)] text-xs md:text-sm text-[#1a1a1a] uppercase tracking-widest leading-relaxed">
-                  Get instant alerts when new artworks drop — and first dibs on limited editions, SELECTED EXCLUSIVES &amp; hand-signed releases before they hit any other channel and too many eyes...
+                  Join the list for early access to new releases, limited editions, selected exclusives, and hand-signed drops before they unravel elsewhere.
                 </p>
               </div>
               <div className="flex flex-col sm:flex-row gap-3">
