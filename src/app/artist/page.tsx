@@ -23,11 +23,11 @@ export default function ArtistPage() {
               <span className="text-[#C8FF00]">de la Pampa</span>
             </h1>
             <p className="mt-4 md:mt-6 text-white heading-style leading-tight lowercase w-full text-lg md:text-2xl font-bold tracking-tighter text-left">
-              <span className="text-[#C8FF00]">fresh wordplay </span><br className="md:hidden" />
+              <span className="text-white">fresh wordplay </span><br className="md:hidden" />
               <span className="text-white">from a </span>
               <span className="text-[#C8FF00]">french artist</span>
               <br />
-              <span className="text-white">who </span>
+              <span className="text-[#C8FF00]">who </span>
               <span className="text-[#C8FF00]">speaks in glitch</span>
             </p>
           </div>
