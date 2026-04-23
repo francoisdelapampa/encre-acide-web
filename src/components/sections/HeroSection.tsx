@@ -97,7 +97,7 @@ export function HeroSection() {
           alt="Tarpe Diem Skeleton"
           width={400}
           height={600}
-          className="w-[25.92vw] max-h-full h-auto object-contain object-right"
+          className="w-[22.032vw] max-h-full h-auto object-contain object-right"
           priority
         />
       </div>
