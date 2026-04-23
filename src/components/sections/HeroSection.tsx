@@ -61,7 +61,7 @@ export function HeroSection() {
             </p>
             <div className="mt-4">
               <span className="font-[family-name:var(--font-space-grotesk)] text-sm tracking-widest text-[#ccc6b7] font-bold">
-                FROM PARIS, WITH A LAUGH!
+                FROM PARIS, WITH A LAUGH !
               </span>
             </div>
           </div>
