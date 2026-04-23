@@ -38,11 +38,11 @@ export function Footer() {
 
         <div className="flex-1 flex justify-end text-right">
           <div className="flex flex-col items-end gap-1">
-            <p className="font-[family-name:var(--font-space-grotesk)] text-xs uppercase tracking-tight text-zinc-500">
-              ©2026 ENCRE ACIDE
+            <p className="font-[family-name:var(--font-space-grotesk)] text-xs tracking-tight text-zinc-500">
+              ©2026 encre acide
             </p>
-            <p className="font-[family-name:var(--font-space-grotesk)] text-xs uppercase tracking-tight text-zinc-500">
-              ALL RIGHTS RESERVED
+            <p className="font-[family-name:var(--font-space-grotesk)] text-xs tracking-tight text-zinc-500">
+              all rights reserved
             </p>
           </div>
         </div>
