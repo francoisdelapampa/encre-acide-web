@@ -14,10 +14,10 @@ export function HeroSection() {
           <span>SATIRICAL POSTER ART /// POP DYSTOPIA /// LINGUISTIC SUBVERSION /// DARK HUMOR /// FRENCH ABSURDISM /// FROM PARIS WITH A LAUGH</span>
         </div>
       </div>
-    <section className="flex flex-col justify-start items-start pt-8 md:pt-12 relative overflow-hidden bg-[#0e0e0e]">
+    <section className="relative flex flex-col justify-start items-start pt-8 md:pt-12 pb-[20vw] md:pb-[15vw] overflow-hidden bg-[#0e0e0e]">
 
       <div className="flex flex-col md:flex-row w-full justify-between items-center px-6 md:px-10">
-        <div className="w-full md:w-[50vw] z-10 mb-8 md:mb-12 pt-8 md:pt-0">
+        <div className="w-full md:w-[50vw] mb-8 md:mb-12 pt-8 md:pt-0">
           <h1 className="heading-style text-[15vw] md:text-[8vw] w-full md:w-[50vw] leading-[0.8] animate-fade-in-up">
             <span className="text-white block">Encre</span>
             <span className="text-[#C8FF00] block">Acide</span>
@@ -29,7 +29,7 @@ export function HeroSection() {
             <span className="text-[#C8FF00]">Words</span>
             <span className="text-white"> That Blast.</span>
             <br />
-            <span className="text-white">Posters That Refuse To Behave.</span>
+            <span className="text-[#C8FF00]">Posters</span><span className="text-white"> That Refuse To Behave.</span>
           </div>
 
           <div className="animate-fade-in-up animation-delay-300">
@@ -65,20 +65,21 @@ export function HeroSection() {
           </div>
         </div>
 
-        <div className="hidden md:block w-[40vw] pr-10 z-10 animate-fade-in animation-delay-200">
-          <Image
-            src="/images/divers/squelette-tarpe.webp"
-            alt="Tarpe Diem Skeleton"
-            width={600}
-            height={800}
-            className="w-full max-h-[70vh] object-contain object-right"
-            priority
-          />
-        </div>
+      </div>
+
+      <div className="w-full mt-8 md:mt-12">
+        <Image
+          src="/images/divers/squelette-tarpe.webp"
+          alt="Tarpe Diem Skeleton"
+          width={1200}
+          height={600}
+          className="w-full h-auto block"
+          priority
+        />
       </div>
 
       {/* Bottom Ticker */}
-      <div className="w-full bg-[#C8FF00] text-[#131313] uppercase font-[family-name:var(--font-space-mono)] text-xs py-2 whitespace-nowrap overflow-hidden flex items-center z-20 mt-8 md:mt-0">
+      <div className="w-full bg-[#C8FF00] text-[#131313] uppercase font-[family-name:var(--font-space-mono)] text-xs py-2 whitespace-nowrap overflow-hidden flex items-center mt-8 md:mt-0">
         <div className="animate-marquee flex gap-8">
           <span>When pixels in distress start speaking for drifting wor(l)ds /// TARPE DIEM /// S'IL VOUS BLED /// DRIFTED DREAMS /// DYSTOPICS /// HOT PUNS /// POSTERS THAT REFUSE TO BEHAVE</span>
           <span>When pixels in distress start speaking for drifting wor(l)ds /// TARPE DIEM /// S'IL VOUS BLED /// DRIFTED DREAMS /// DYSTOPICS /// HOT PUNS /// POSTERS THAT REFUSE TO BEHAVE</span>
