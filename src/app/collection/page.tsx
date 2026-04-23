@@ -36,7 +36,7 @@ export default function CollectionPage() {
         </div>
 
         <div className="mt-6 md:mt-8 mb-4 font-bold tracking-tighter heading-style text-lg md:text-2xl text-left lowercase">
-          <span className="text-white">{products.length} </span>
+          <span className="text-white">50+ </span>
           <span className="text-[#C8FF00]">satirical prints</span>
           <span className="text-white"> across </span>
           <span className="text-[#C8FF00]">two series</span>
@@ -45,8 +45,8 @@ export default function CollectionPage() {
         <div className="mb-12 md:mb-24 flex flex-col gap-6 animate-fade-in-up animation-delay-200">
           <p className="font-[family-name:var(--font-space-grotesk)] text-sm text-[#ccc6b7] tracking-widest leading-relaxed text-left font-bold max-w-3xl">
             A COLLECTION OF ARTWORKS THAT BREAKS OUT OF THE STANDARD FRAME AND
-            SPREADS THROUGH A WORLD OF ALGORITHMIC SAMENESS. UNEXPECTED VISUAL
-            WORKS COLLIDING WITH SHARP, <span className="whitespace-nowrap">HAND-CRAFTED</span>{" "}
+            SPREADS THROUGH A WORLD OF ALGORITHMIC SAMENESS. <span className="text-[#C8FF00]">UNEXPECTED VISUAL
+            WORKS</span> COLLIDING WITH SHARP, <span className="whitespace-nowrap">HAND-CRAFTED</span>{" "}
             FRENCH SARCASTIC WORDPLAY.{" "}
             <span className="text-[#C8FF00]">POLITICAL AND CULTURAL SATIRE</span> WITH AN <span className="whitespace-nowrap">ANTI-ESTABLISHMENT</span> EDGE <span className="text-[#C8FF00]">FOR EDUCATED SKEPTICAL AUDIENCES, AND FLEXIBLE MINDS</span>. <span className="whitespace-nowrap">MUSEUM-QUALITY</span> GICLÉE PRINTS ON MATTE
             PAPER. SHIPS WORLDWIDE.
