@@ -42,7 +42,7 @@ export function Footer() {
               ©2026 encre acide
             </p>
             <p className="font-[family-name:var(--font-space-grotesk)] text-xs tracking-tight text-zinc-500">
-              all rights reserved
+              All rights reserved
             </p>
           </div>
         </div>
