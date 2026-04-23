@@ -16,7 +16,7 @@ export function HeroSection() {
       </div>
     <section className="relative flex flex-col justify-start items-start pt-8 md:pt-12 overflow-hidden bg-[#0e0e0e]">
 
-      <div className="flex flex-col md:flex-row w-full justify-between items-center px-6 md:px-10">
+      <div className="relative z-10 flex flex-col md:flex-row w-full justify-between items-center px-6 md:px-10">
         <div className="w-full md:w-[50vw] mb-8 md:mb-12 pt-8 md:pt-0">
           <h1 className="heading-style text-[15vw] md:text-[8vw] w-full md:w-[50vw] leading-[0.8] animate-fade-in-up">
             <span className="text-white block">Encre</span>
@@ -67,7 +67,7 @@ export function HeroSection() {
 
       </div>
 
-      <div className="absolute bottom-[2.5rem] right-0 w-1/2 md:w-full z-0">
+      <div className="absolute top-[2.5rem] right-0 w-[45%] z-0 md:bottom-[2.5rem] md:top-auto md:w-full">
         <Image
           src="/images/divers/squelette-tarpe.png"
           alt="Tarpe Diem Skeleton"
