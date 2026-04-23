@@ -7,6 +7,7 @@ const footerLinks = [
   { href: "#", label: "TikTok" },
   { href: "#", label: "YouTube" },
   { href: "#", label: "Blog" },
+  { href: "#", label: "Contact" },
 ];
 
 export function Footer() {
@@ -28,7 +29,7 @@ export function Footer() {
             <Link
               key={link.label}
               href={link.href}
-              className="font-[family-name:var(--font-space-grotesk)] text-xs tracking-tight hover:text-[#C8FF00] transition-colors cursor-crosshair text-[#E9E2D3] uppercase"
+              className="font-[family-name:var(--font-space-grotesk)] text-xs tracking-wider hover:text-[#C8FF00] transition-colors cursor-crosshair text-[#E9E2D3] uppercase"
             >
               {link.label}
             </Link>
