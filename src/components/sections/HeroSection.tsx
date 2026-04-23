@@ -10,8 +10,8 @@ export function HeroSection() {
       {/* Top Ticker */}
       <div className="w-full font-[family-name:var(--font-space-mono)] text-xs py-2 mt-2.5 whitespace-nowrap overflow-hidden flex items-center justify-center bg-[#C8FF00] text-[#131313] uppercase">
         <div className="animate-marquee flex gap-1">
-          <span>SATIRICAL POSTER ART /// POP DYSTOPIA /// LINGUISTIC SUBVERSION /// DARK HUMOR /// FRENCH ABSURDISM /// FROM PARIS WITH A LAUGH</span>
-          <span>SATIRICAL POSTER ART /// POP DYSTOPIA /// LINGUISTIC SUBVERSION /// DARK HUMOR /// FRENCH ABSURDISM /// FROM PARIS WITH A LAUGH</span>
+          <span>SATIRICAL POSTER ART /// POP DYSTOPIA /// LINGUISTIC SUBVERSION /// DARK HUMOR /// FRENCH ABSURDISM /// FROM PARIS WITH A LAUGH  </span>
+          <span>SATIRICAL POSTER ART /// POP DYSTOPIA /// LINGUISTIC SUBVERSION /// DARK HUMOR /// FRENCH ABSURDISM /// FROM PARIS WITH A LAUGH  </span>
         </div>
       </div>
     <section className="relative flex flex-col justify-start items-start pt-8 md:pt-12 overflow-hidden bg-[#0e0e0e]">
