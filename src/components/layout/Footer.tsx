@@ -28,7 +28,7 @@ export function Footer() {
             <Link
               key={link.label}
               href={link.href}
-              className="font-[family-name:var(--font-space-mono)] text-xs tracking-tight hover:text-[#C8FF00] transition-colors cursor-crosshair text-[#E9E2D3] uppercase"
+              className="font-[family-name:var(--font-space-grotesk)] text-xs tracking-tight hover:text-[#C8FF00] transition-colors cursor-crosshair text-[#E9E2D3] uppercase"
             >
               {link.label}
             </Link>
@@ -37,10 +37,10 @@ export function Footer() {
 
         <div className="flex-1 flex justify-end text-right">
           <div className="flex flex-col items-end gap-1">
-            <p className="font-[family-name:var(--font-space-mono)] text-xs uppercase tracking-tight text-zinc-500">
+            <p className="font-[family-name:var(--font-space-grotesk)] text-xs uppercase tracking-tight text-zinc-500">
               ©2026 ENCRE ACIDE
             </p>
-            <p className="font-[family-name:var(--font-space-mono)] text-xs uppercase tracking-tight text-zinc-500">
+            <p className="font-[family-name:var(--font-space-grotesk)] text-xs uppercase tracking-tight text-zinc-500">
               ALL RIGHTS RESERVED
             </p>
           </div>

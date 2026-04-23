@@ -18,7 +18,7 @@ export function ProcessSection() {
           </p>
           <div className="w-full max-w-3xl">
             <p className="font-[family-name:var(--font-space-mono)] text-white text-sm md:text-base not-italic block mb-2 uppercase font-bold">
-              A known-sense project. A better cold-soul process. And a fool-stack
+              A known-sense project / A better cold-soul process / And a fool-stack
               match.
             </p>
             <p className="font-[family-name:var(--font-space-mono)] text-[#C8FF00] text-sm md:text-base not-italic block">
@@ -39,12 +39,12 @@ export function ProcessSection() {
             <h3 className="heading-style mb-4 md:mb-6 text-lg md:text-xl text-white">
               What The Flux ?
             </h3>
-            <p className="text-white font-[family-name:var(--font-space-mono)] text-xs md:text-sm leading-relaxed uppercase">
-              By using <span className="text-[#C8FF00]">art as a device</span>{" "}
-              and <span className="text-[#C8FF00]">satire as a weapon</span>,
-              the artist&apos;s voice becomes a vice twice over. And because it is{" "}
-              <span className="text-[#C8FF00]">knot what you think</span>, it is
-              worth this little vice.
+            <p className="text-white font-[family-name:var(--font-space-grotesk)] text-sm leading-relaxed">
+              BY USING <span className="text-[#C8FF00]">ART AS A DEVICE</span>{" "}
+              AND <span className="text-[#C8FF00]">SATIRE AS A WEAPON</span>,
+              THE ARTIST&apos;S VOICE BECOMES A VICE TWICE OVER. AND BECAUSE IT IS{" "}
+              <span className="text-[#C8FF00]">KNOT WHAT YOU THINK</span>, IT IS
+              WORTH THIS LITTLE VICE.
             </p>
           </motion.div>
 
@@ -56,7 +56,7 @@ export function ProcessSection() {
             transition={{ duration: 0.6, delay: 0.15 }}
           >
             <h3 className="heading-style mb-4 md:mb-6 text-lg md:text-xl text-white">
-              Visual Layer
+              <span className="text-[#C8FF00]">Visual</span> Layer
             </h3>
             <p className="text-[#c4caac] font-[family-name:var(--font-space-mono)] text-xs md:text-sm leading-relaxed">
               Generative AI helps the artist create surreal, impossible scenes
@@ -73,7 +73,7 @@ export function ProcessSection() {
             transition={{ duration: 0.6, delay: 0.3 }}
           >
             <h3 className="heading-style mb-4 md:mb-6 text-lg md:text-xl text-white">
-              Text Layer
+              <span className="text-[#C8FF00]">Text</span> Layer
             </h3>
             <p className="text-[#c4caac] font-[family-name:var(--font-space-mono)] text-xs md:text-sm leading-relaxed">
               Hand-crafted French wordplay, puns, sonic distortions, and

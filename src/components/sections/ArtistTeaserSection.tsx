@@ -3,10 +3,11 @@
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 export function ArtistTeaserSection() {
   return (
-    <section className="py-20 md:py-32 px-6 md:px-10 bg-[#0e0e0e] border-t border-[#F6F4ED]/20">
+    <section className="py-20 md:py-32 px-6 md:px-10 bg-[#0e0e0e] border-t border-[#F6F4ED]/20 relative overflow-hidden">
       <div className="max-w-7xl mx-auto">
         <div className="flex flex-col items-center text-center">
           <motion.div
@@ -24,7 +25,7 @@ export function ArtistTeaserSection() {
               <br />
               <span className="text-[#C8FF00]">de la Pampa</span>
             </h2>
-            <p className="font-[family-name:var(--font-space-mono)] text-xs md:text-sm text-[#E9E2D3] leading-relaxed uppercase tracking-widest max-w-2xl">
+            <p className="font-[family-name:var(--font-space-mono)] text-sm md:text-base text-[#E9E2D3] leading-relaxed normal-case max-w-2xl">
               A digital alchemist turning corrupted ideas into gold. Paris-based
               photographer turned satirical poster artist. Balancing dark humor
               with visual poetry, collective hypnosis with intimate fantasy.
@@ -40,6 +41,15 @@ export function ArtistTeaserSection() {
             </Link>
           </motion.div>
         </div>
+      </div>
+      <div className="absolute bottom-0 right-0 z-0 pointer-events-none">
+        <Image
+          src="/images/divers/squelette-tarpe-lazy-2.png"
+          alt="Skeleton"
+          width={400}
+          height={400}
+          className="object-contain object-bottom-right opacity-80"
+        />
       </div>
     </section>
   );

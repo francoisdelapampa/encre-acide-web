@@ -9,13 +9,14 @@ import { ArtistTeaserSection } from "@/components/sections/ArtistTeaserSection";
 export default function HomePage() {
   return (
     <SiteLayout
-      marqueeText="/// ACID BRUTALISM /// CORROSIVE NETWORK /// DRIFTING WOR(L)DS /// TARPE DIEM /// S'IL VOUS BLED /// VISUAL ABSURDITY ///"
+      marqueeText="ACID BRUTALISM /// CORROSIVE NETWORK /// DRIFTING WOR(L)DS /// TARPE DIEM /// S'IL VOUS BLED /// VISUAL ABSURDITY"
     >
       <HeroSection />
       <TarpeDiemSection />
       <SilVousBledSection />
       <ProcessSection />
       <CTASection />
+      <div className="border-t-2 border-[#C8FF00]" />
       <ArtistTeaserSection />
     </SiteLayout>
   );

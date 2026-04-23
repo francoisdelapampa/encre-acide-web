@@ -3,28 +3,32 @@
 import Image from "next/image";
 import { useState } from "react";
 import { SiteLayout } from "@/components/layout/SiteLayout";
+import { MarqueeBar } from "@/components/layout/Marquee";
 
 export default function ArtistPage() {
   const [imgError, setImgError] = useState(false);
 
   return (
     <SiteLayout
-      marqueeText="DARK HUMOR /// VISUAL POETRY /// COLLECTIVE HYPNOSIS /// INTIMATE FANTASY /// SENSORY PLEASURE /// DYSTOPIAN REALITIES /// CORRUPTED MEANINGS ///"
+      marqueeText="DARK HUMOR /// VISUAL POETRY /// COLLECTIVE HYPNOSIS /// INTIMATE FANTASY /// SENSORY PLEASURE /// DYSTOPIAN REALITIES /// CORRUPTED MEANINGS"
     >
-      <main className="flex-grow w-full max-w-[1440px] mx-auto px-6 md:px-10 py-16 md:py-20 lg:py-32 flex flex-col gap-12 md:gap-24">
+      <div className="w-full bg-[#C8FF00] text-[#0e0e0e] py-2 mt-2.5">
+        <MarqueeBar text="DARK HUMOR /// VISUAL POETRY /// COLLECTIVE HYPNOSIS /// INTIMATE FANTASY /// SENSORY PLEASURE /// DYSTOPIAN REALITIES /// CORRUPTED MEANINGS" speed={30} />
+      </div>
+      <main className="flex-grow w-full max-w-[1440px] mx-auto px-6 md:px-10 py-8 md:py-12 lg:py-16 flex flex-col gap-12 md:gap-24">
         <div className="flex flex-col justify-start space-y-6 md:space-y-8 max-w-4xl animate-fade-in-up">
           <div>
-            <h2 className="text-sm font-[family-name:var(--font-space-grotesk)] font-normal text-[#C8FF00] uppercase tracking-tight mb-3 md:mb-4">
-              The mind behind the acid
-            </h2>
-            <h1 className="text-4xl md:text-6xl lg:text-[5.5rem] leading-[0.85] md:leading-[0.8] break-words heading-style">
+            <h1 className="text-4xl md:text-6xl lg:text-[5.5rem] leading-[0.85] md:leading-[0.8] break-words heading-style flex flex-col items-start">
               <span className="text-white">Fran&ccedil;ois</span>
-              <br />
               <span className="text-[#C8FF00]">de la Pampa</span>
             </h1>
-            <p className="mt-4 md:mt-6 text-white heading-style leading-tight uppercase max-w-xl text-base md:text-lg lg:text-xl">
-              <span className="text-[#C8FF00]">fresh wordplay</span>{" "}
-              <span className="text-white">from a French artist who speaks in glitch</span>
+            <p className="mt-4 md:mt-6 text-white heading-style leading-tight lowercase w-full text-lg md:text-2xl font-bold tracking-tighter text-left">
+              <span className="text-[#C8FF00]">fresh wordplay </span>
+              <span className="text-white">from a </span>
+              <span className="text-[#C8FF00]">french artist</span>
+              <br />
+              <span className="text-white">who </span>
+              <span className="text-[#C8FF00]">speaks in glitch</span>
             </p>
           </div>
         </div>
@@ -50,6 +54,9 @@ export default function ArtistPage() {
           </div>
 
           <div className="w-full lg:w-2/3 flex flex-col justify-start">
+            <p className="font-[family-name:var(--font-space-mono)] text-sm text-[#C8FF00] uppercase tracking-widest mb-4 md:mb-6">
+              THE MIND BEHIND THE ACID
+            </p>
             <div className="max-w-none text-[#E9E2D3] font-[family-name:var(--font-space-mono)] text-sm md:text-base leading-relaxed space-y-4 md:space-y-6">
               <p>
                 Also known by his artist name Fran&ccedil;ois de la Pampa, Fran&ccedil;ois

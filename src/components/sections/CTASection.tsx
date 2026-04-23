@@ -54,7 +54,7 @@ export function CTASection() {
         >
           <Link
             href="/collection"
-            className="bg-[#C8FF00] text-[#273500] font-[family-name:var(--font-space-mono)] uppercase tracking-widest px-8 md:px-10 text-base md:text-lg hover:bg-white hover:text-black transition-colors inline-flex items-center gap-3 group py-2.5 md:py-3"
+            className="bg-[#C8FF00] text-[#273500] font-[family-name:var(--font-space-mono)] uppercase tracking-widest px-8 md:px-10 text-base md:text-lg hover:bg-white hover:text-black transition-colors inline-flex items-center gap-3 group py-2.5 md:py-3 font-bold"
           >
             Browse the Collection
             <ArrowRight className="w-6 h-6 transition-transform group-hover:translate-x-1" />

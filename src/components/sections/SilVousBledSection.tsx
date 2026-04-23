@@ -43,15 +43,15 @@ export function SilVousBledSection() {
                   </div>
                 </Link>
               ))}
+            </div>
+            <div className="mt-4 flex justify-end">
               <Link
                 href="/collection?series=sil-vous-bled"
-                className="group cursor-pointer flex flex-col gap-3"
+                className="group cursor-pointer"
               >
-                <div className="aspect-[5/7] bg-[#e8e5dc] relative overflow-hidden flex items-center justify-center border border-[#ddd8cc]">
-                  <span className="text-center font-[family-name:var(--font-space-mono)] font-bold text-base md:text-lg tracking-widest text-[#8A8578]">
-                    + {products.filter((p) => p.series === "sil-vous-bled").length - 8} MORE
-                  </span>
-                </div>
+                <span className="font-[family-name:var(--font-space-mono)] font-bold text-sm tracking-widest text-[#3f3f46] uppercase">
+                  + {products.filter((p) => p.series === "sil-vous-bled").length - 8} MORE
+                </span>
               </Link>
             </div>
           </div>
@@ -68,16 +68,16 @@ export function SilVousBledSection() {
             </p>
             <Link
               href="/collection?series=sil-vous-bled"
-              className="bg-[#C8FF00] text-[#273500] font-[family-name:var(--font-space-mono)] uppercase tracking-widest px-6 md:px-8 text-sm hover:bg-white hover:text-black transition-colors inline-flex items-center gap-2 group self-start py-2.5"
+              className="bg-[#C8FF00] text-[#273500] font-[family-name:var(--font-space-mono)] uppercase tracking-widest px-6 md:px-8 text-sm hover:bg-white hover:text-black transition-colors inline-flex items-center gap-2 group self-start py-2.5 font-bold"
             >
-              BROWSE S&apos;IL VOUS BLED PRINTS
+              BROWSE MORE PRINTS
               <ArrowRight className="w-5 h-5 transition-transform group-hover:translate-x-1" />
             </Link>
           </div>
         </div>
 
         <div className="mt-8 md:mt-12 w-full animate-fade-in-up animation-delay-300">
-          <p className="font-[family-name:var(--font-space-mono)] text-sm md:text-base text-[#3f3f46] leading-relaxed normal-case max-w-4xl">
+          <p className="font-[family-name:var(--font-space-mono)] text-sm md:text-base text-[#3f3f46] leading-relaxed normal-case">
             Embracing the glitch as a feature and linguistic chaos as an
             opportunity, these works turn words into jokes and treat language as
             something living, unstable, and breakable. Pure wit smashing
