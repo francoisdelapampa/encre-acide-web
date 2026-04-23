@@ -78,8 +78,8 @@ export function HeroSection() {
         </div>
       </div>
 
-      {/* Desktop images — side by side, aligned at bottom, gazon top capped */}
-      <div className="absolute top-0 right-0 h-full hidden md:flex items-end pr-10 z-0">
+      {/* Desktop tarpe — centered */}
+      <div className="absolute bottom-0 left-1/2 -translate-x-1/2 hidden md:block z-0">
         <Image
           src="/images/divers/squelette-tarpe.webp"
           alt="Tarpe Diem Skeleton"
@@ -88,6 +88,10 @@ export function HeroSection() {
           className="w-[29vw] h-auto object-contain scale-x-[-1]"
           priority
         />
+      </div>
+
+      {/* Desktop gazon — right, height capped */}
+      <div className="absolute top-0 right-0 h-full hidden md:flex items-end pr-10 z-0">
         <Image
           src="/images/divers/squelette-tarpe-gazon.png"
           alt="Tarpe Diem Skeleton"
