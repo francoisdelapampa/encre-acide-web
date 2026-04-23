@@ -16,17 +16,7 @@ export function HeroSection() {
       </div>
     <section className="relative flex flex-col justify-start items-start pt-8 md:pt-12 overflow-hidden bg-[#0e0e0e]">
 
-      {/* Mobile background image — behind all text */}
-      <div className="absolute bottom-[2.5rem] right-0 w-[99%] translate-x-[40%] z-0 md:hidden">
-        <Image
-          src="/images/divers/squelette-tarpe-gazon.png"
-          alt="Tarpe Diem Skeleton"
-          width={1200}
-          height={600}
-          className="w-full h-auto block"
-          priority
-        />
-      </div>
+
 
       <div className="relative z-10 flex flex-col md:flex-row w-full justify-between items-center md:items-start px-6 md:px-10">
         <div className="w-full md:w-[50vw] mb-8 md:mb-12 pt-8 md:pt-0">
@@ -66,7 +56,17 @@ export function HeroSection() {
             </div>
           </div>
 
-          <div className="mt-8 animate-fade-in-up animation-delay-400">
+          <div className="relative mt-8 animate-fade-in-up animation-delay-400">
+            <div className="absolute bottom-full right-0 w-[99%] translate-x-[40%] z-[-1] md:hidden">
+              <Image
+                src="/images/divers/squelette-tarpe-gazon.png"
+                alt="Tarpe Diem Skeleton"
+                width={1200}
+                height={600}
+                className="w-full h-auto block"
+                priority
+              />
+            </div>
             <Link
               href="/collection"
               className="relative z-10 bg-[#C8FF00] text-[#273500] font-[family-name:var(--font-space-mono)] uppercase tracking-widest px-6 md:px-8 text-sm hover:bg-white hover:text-black transition-colors inline-flex items-center gap-2 group py-2.5 font-bold"
