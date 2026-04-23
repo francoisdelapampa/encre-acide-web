@@ -14,7 +14,7 @@ export function HeroSection() {
           <span>SATIRICAL POSTER ART /// POP DYSTOPIA /// LINGUISTIC SUBVERSION /// DARK HUMOR /// FRENCH ABSURDISM /// FROM PARIS WITH A LAUGH</span>
         </div>
       </div>
-    <section className="relative flex flex-col justify-start items-start pt-8 md:pt-12 pb-[20vw] md:pb-[15vw] overflow-hidden bg-[#0e0e0e]">
+    <section className="relative flex flex-col justify-start items-start pt-8 md:pt-12 overflow-hidden bg-[#0e0e0e]">
 
       <div className="flex flex-col md:flex-row w-full justify-between items-center px-6 md:px-10">
         <div className="w-full md:w-[50vw] mb-8 md:mb-12 pt-8 md:pt-0">
@@ -67,7 +67,7 @@ export function HeroSection() {
 
       </div>
 
-      <div className="w-full mt-8 md:mt-12">
+      <div className="absolute bottom-0 left-1/2 -translate-x-1/2 w-1/2 md:w-full z-0">
         <Image
           src="/images/divers/squelette-tarpe.webp"
           alt="Tarpe Diem Skeleton"
